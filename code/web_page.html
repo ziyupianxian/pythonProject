@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <title>网页的标题</title>
+<style>
+.spanClass {
+font-size:60px;
+font-weight:bold;
+color:red;
+}
+</style>
+</head>
+
+<body>
+
+
+<span id="spanText" class="spanClass">我是的网页！</span>
+<button onclick="changeText()">点我<tton>
+<script>
+function changeText() {
+document.getElementById("spanText").innerHTML = "世界你好！";
+}
+</script>
+</body>
+</html>
